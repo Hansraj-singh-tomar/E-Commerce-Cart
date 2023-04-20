@@ -32,7 +32,7 @@ const Cards = () => {
                                     <Card.Title>{element.rname}</Card.Title>
                                     <Card.Text>Price : ${element.price}</Card.Text>
                                     <div className='button_div d-flex justify-content-center'>
-                                        <Button variant="primary" onClick={() => send(element)} className='col-lg-12'>Add to Card</Button>
+                                        \<Button variant="primary" onClick={() => send(element)} className='col-lg-12'>Add to Card</Button>
                                     </div>
                                 </Card.Body>
                             </Card>
